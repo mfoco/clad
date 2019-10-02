@@ -15,14 +15,14 @@
     }
   },
   "clangVersion": {
-    "default": "clang6",
+    "default": "clang7",
     "choices": {
-      "clang6": {
-        "short": "Clang 6.0",
-        "long": "Use Clang 6.0",
+      "clang7": {
+        "short": "Clang 7.0",
+        "long": "Use Clang 7.0",
         "settings": {
-          "CMAKE_CXX_COMPILER": "/usr/bin/clang++-6.0",
-          "LLVM_DIR": "/usr/lib/llvm-6.0/lib/cmake/llvm/"
+          "CMAKE_CXX_COMPILER": "/usr/bin/clang++-7",
+          "LLVM_DIR": "/usr/lib/llvm-7/cmake"
         }
       }
     }
